@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <script type="text/javascript" src="https://app.catvision.io/get/cvio.min.js"></script>
+  <title>Title</title>
+</head>
+<body>
+<h1>Hello Display</h1>
+<script type="text/javascript">
+  CVIO.init({authorizationToken: authToken});
+</script>
+<canvas id='cviocanvas'></canvas>
+<script type="text/javascript">
+  var cvioDisplay = new CVIODisplay({
+    target: document.getElementById('cviocanvas'),
+    clientTag: '[WEUYTD7UXCHO2HUY]',
+  });
+  cvioDisplay.connect();
+</script>
+</body>
+</html>
+
+
